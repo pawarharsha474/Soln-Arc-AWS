@@ -1,2 +1,2 @@
 # Soln-Arc-AWS
-here practising solution architect of exampro
+practicals of  solution architect of exampro
