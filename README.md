@@ -1,2 +1,2 @@
-# Soln-Arc-AWS
-practicals of  solution architect of exampro
+# Soln-Arc-AWS-Examples
+practicals of  solution architect course from exampro
