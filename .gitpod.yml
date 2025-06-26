@@ -1,0 +1,5 @@
+# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+  - name: aws-cli
+    before: msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+
