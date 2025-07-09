@@ -5,7 +5,7 @@ echo "== deploy s3 bucket via CFN"
 STACK_NAME="cfn-s3-simple"
 
 aws cloudformation deploy \
---template-file ./path/to/template.yaml \
+--template-file ./workspace/Soln-Arc-AWS/SDK/iac/cfn/template.yaml \
 --no-execute-changeset \
 --region us-west-2 \
 --stack-name $STACK_NAME
