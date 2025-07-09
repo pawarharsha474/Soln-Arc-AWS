@@ -6,6 +6,6 @@ export class CdkStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-  new s3.Bucket(scope, 'bucktharsha');
+  //new s3.Bucket(scope, 'bucktharsha');
   }
 }
