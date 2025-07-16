@@ -1,1 +1,2 @@
-aws s3 mb s3://prefixes-first-bucket1 --region ap-south-1
+aws s3 mb s3://amzn-s3-demo-bucket \
+    --region ca-central-1
