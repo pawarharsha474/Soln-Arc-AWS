@@ -4,5 +4,5 @@ aws s3 mb s3://prefixes-starbucket1 \
 ```
 
 ```sh
-    aws s3api put-object --bucket="starbucket1" --key="actress/"
+    aws s3api put-object --bucket="prefixes-starbucket1" --key="actress/"
 ```
