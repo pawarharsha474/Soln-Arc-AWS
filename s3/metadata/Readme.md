@@ -6,4 +6,4 @@ aws s3 mb s3://firstapibucket1  --region us-east-1
 echo "Hello sunshine" > heiie.txt
 
 ##upload with metadata
-aws s3api  put-object --bucket metadata-firstapibucket1 --key heiie.txt --metadata KeyName1=string,KeyName2=string
+aws s3api  put-object --bucket metadata-firstapibucket1 --key heiie.txt --body heiie.txt --metadata planet=venus
