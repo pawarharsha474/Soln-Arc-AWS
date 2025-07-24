@@ -21,3 +21,4 @@ tasks:
         git push || echo "Push failed"
         sleep 300
       done
+
