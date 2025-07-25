@@ -5,4 +5,4 @@ aws s3 mb s3://lipstick-storage --region ap-south-1
 ##create a file
 echo "hello world this is harsha doing aws stuff" > hello.txt 
 
-aws s3 cp  hello.txt s3://
+aws s3 cp  hello.txt s3://lipstick-storage --storage-class STANDARD_IA
