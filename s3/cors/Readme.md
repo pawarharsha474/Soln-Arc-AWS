@@ -1,6 +1,5 @@
 ## Create a bucket
-aws s3 mb s3://cors_buc1 
-
+aws s3 mb s3://cors-fun-bkt
 
 ## Change block public access
 
