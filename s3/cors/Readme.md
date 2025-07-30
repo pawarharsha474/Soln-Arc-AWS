@@ -18,6 +18,6 @@ aws s3api put-bucket-website --bucket cors-fun-bkt --website-configuration file:
 aws s3 cp index.html s3://cors-fun-bkt
 
 ## View the webiste and see  if  html file  is there or not
-
-https://cors-fun-bkt.s3-webiste-ap-south-1.amazonaws.com
+ 
+http://cors-fun-bkt-s3-webiste-ap-south-1.amazonaws.com
 
