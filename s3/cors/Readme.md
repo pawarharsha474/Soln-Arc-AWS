@@ -9,3 +9,6 @@ aws s3api put-public-access-block \
 ## Create a bucket policy
 aws s3api put-bucket-policy --bucket cors-fun-bkt --policy file://policy.json
 
+## Create static-website policy
+
+aws s3api put-bucket-website --bucket amzn-s3-demo-bucket --website-configuration file://website.json
