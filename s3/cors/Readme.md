@@ -7,3 +7,5 @@ aws s3api put-public-access-block \
     --public-access-block-configuration "BlockPublicAcls=true,IgnorePublicAcls=true,BlockPublicPolicy=False,RestrictPublicBuckets=False"
 
 ## Create a bucket policy
+aws s3api put-bucket-policy --bucket cors-fun-bkt --policy file://policy.json
+
