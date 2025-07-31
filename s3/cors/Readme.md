@@ -19,7 +19,6 @@ aws s3 cp index.html s3://cors-123-buc
 
 ## View the webiste and see  if  html file  is there or not
  
-http://cors-123-buc.s3-webiste.ap-south-1.amazonaws.com
+https://cors-123-buc.s3-website.ca-central-1.amazonaws.com
 
-or this might work
-http://cors-123-buc-s3-webiste-ap-south-1.amazonaws.com
+https://cors-123-buc.s3-website-ca-central-1.amazonaws.com
