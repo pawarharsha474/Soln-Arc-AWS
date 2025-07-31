@@ -17,6 +17,10 @@ aws s3api put-bucket-website --bucket cors-123-buc --website-configuration file:
 
 aws s3 cp index.html s3://cors-123-buc
 
+##Upload index.html file and include a resource that would be cross-origin
+aws s3 cp index.html s3://
+
+
 ## View the webiste and see  if  html file  is there or not
  
 https://cors-123-buc.s3-website.ca-central-1.amazonaws.com
