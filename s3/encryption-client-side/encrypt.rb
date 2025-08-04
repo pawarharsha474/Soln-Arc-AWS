@@ -1,4 +1,5 @@
-require 'openssl'
+
+require 'aws-sdk-s3'
 key = OpenSSL::PKey::RSA.new(1024)
 
 bucket='encr-cl-buc1'
