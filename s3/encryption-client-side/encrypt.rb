@@ -5,7 +5,7 @@ require 'pry'
 
 key = OpenSSL::PKey::RSA.new(1024)
 
-bucket = 'encrypt-client-fun-ab-634232'
+bucket = 'encr-cl-buc1'
 object_key = 'hello.txt'
 # encryption client
 s3 = Aws::S3::EncryptionV2::Client.new(
@@ -17,6 +17,7 @@ s3 = Aws::S3::EncryptionV2::Client.new(
 
 # round-trip an object, encrypted/decrypted locally
 resp = s3.put_object(bucket: bucket, key: object_key, body:'handshake')
+
 puts "PUT"
 puts resp
 resp = s3.get_object(bucket: bucket, key: object_key).body.read
