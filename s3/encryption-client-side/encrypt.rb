@@ -6,7 +6,7 @@ bucket='encr-cl-buc1'
 key='hello.txt'
 
 # encryption client
-s3 = Aws::S3::Encryption::Client.new(encryption_key: key)
+s3 = Aws::S3::EncryptionV2::Client.new(encryption_key: key)
 
 # round-trip an object, encrypted/decrypted locally
 s3.put_object(bucket:bucket, key:'hello.txt', body:'handshake')
