@@ -10,7 +10,7 @@ aws s3api put-bucket-versioning --bucket rep-wonderh2 --versioning-configuration
 
 
 ## Create a Role and policy  for s3 replication 
-aws iam create-policy --policy-name s3-poli-example --policy-document file://policy.json
+aws iam create-policy --policy-name s3-replica-example --policy-document file://policy.json
 
 
 ## Turn on Replication
