@@ -42,4 +42,4 @@ aws s3 rm s3://rep-wonderh1/hello.txt
 aws s3 rm s3://rep-wonderh2/hello.txt
 
 ## Delete buckets from aws
-aws s3 rb  s3://rep-wonderh1
+## Emplty buckets and then delete the buckets from AWS Console 
