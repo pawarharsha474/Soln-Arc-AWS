@@ -30,4 +30,5 @@ aws s3api put-bucket-replication \
     --replication-configuration file://replication.json
 
 ## Create a file and upload to our bucket  
-aws s3 cp hello.txt s3://
+echo "Hello World this is harsha here" >hello.txt
+aws s3 cp hello.txt s3://rep-wonderh1/hello.txt
