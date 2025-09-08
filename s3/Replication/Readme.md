@@ -34,4 +34,7 @@ echo "Hello World this is harsha here" >hello.txt
 aws s3 cp hello.txt s3://rep-wonderh1/hello.txt
 
 ## Check dest buckket to see if replication worked 
-aws s3 ls s3:///rep-wonderh2
+aws s3 ls s3://rep-wonderh2
+
+
+## Cleanup
