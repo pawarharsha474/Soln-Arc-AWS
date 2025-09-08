@@ -1,5 +1,5 @@
 {
-    "Role": "arn:aws:iam::123456789012:role/s3-replication-role",
+    "Role": "arn:aws:iam::393213447885:role/s3-replication-role",
     "Rules": [
         {
             "Status": "Enabled",
