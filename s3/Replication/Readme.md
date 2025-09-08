@@ -1,0 +1,1 @@
+aws s3 mb s3://replica-bkt1
