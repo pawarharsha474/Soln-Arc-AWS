@@ -18,8 +18,10 @@ aws iam create-role \
 
 
 aws iam attach-role-policy \
-    --policy-arn arn:aws:iam::393213447885:role/s3-replication-role \
-     --role-name s3-replication-role
+  --policy-arn arn:aws:iam::393213447885:policy/s3-replica-example \
+  --role-name s3-replication-role
+
+
 
 
 ## Turn on Replication
