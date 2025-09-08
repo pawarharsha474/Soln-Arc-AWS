@@ -1,6 +1,6 @@
 ## Create an s3 bucket
-aws s3 mb s3://replica-bkt1
-aws s3 mb s3://replica-bkt2 --region us-east-1
+aws s3 mb s3://repli-b1
+aws s3 mb s3://repli-b2 --region us-east-1
 
 ## Turn on Replication
 
