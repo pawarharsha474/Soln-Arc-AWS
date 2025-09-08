@@ -37,4 +37,6 @@ aws s3 cp hello.txt s3://rep-wonderh1/hello.txt
 aws s3 ls s3://rep-wonderh2
 
 
-## Cleanup
+## Cleanup (it clears from source bucket but doesnt  clear from destination bucket)
+aws s3 rm s3://rep-wonderh1/hello.txt
+aws s3 rm s3://rep-wonderh2/hello.txt
