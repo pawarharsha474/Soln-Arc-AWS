@@ -16,21 +16,12 @@ aws iam create-role \
     --role-name s3-replication-role \
     --assume-role-policy-document file://Trust.json
 
-/*{
-    "Role": {
-        "Path": "/",
-        "RoleName": "s3-replication-role",
-        "RoleId": "AROAVXDKZB3G6SLESOHFB",
-        "Arn": "arn:aws:iam::393213447885:role/s3-replication-role",
-        "CreateDate": "2025-09-08T12:50:00+00:00",
-        "AssumeRolePolicyDocument": {
-:*/
 
 aws iam attach-role-policy \
-    --policy-arn arn:aws:iam::aws:policy/ReadOnlyAccess \
-    --role-name ReadOnlyRole
+    --policy-arn arn:aws:iam::393213447885:role/s3-replication-role \
+     --role-name s3-replication-role
 
-    
+
 ## Turn on Replication
 aws s3api put-bucket-replication \
     --bucket rep-wonderh1  \
