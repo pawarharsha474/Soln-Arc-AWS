@@ -2,4 +2,4 @@
 aws s3 mb s3://myversioningb1
 
 
-toch myfile.txt
+echo "Hello World" > myfile.txt
