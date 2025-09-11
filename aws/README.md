@@ -4,6 +4,28 @@ This bundle contains a built executable of the AWS CLI v2.
 
 ## Installation
 
+How should the line of code start,
+
+how it should end,
+
+where to use double quotes,
+
+
+
+How should the line of code start,
+
+how it should end,
+
+where to use double quotes,
+
+where to use curly brackets,
+
+where to use parenthesis, etc.
+
+where to use curly brackets,
+
+where to use parenthesis, etc.
+
 To install the AWS CLI v2, run the `install` script:
 ```
 $ sudo ./install 
