@@ -2,3 +2,4 @@
 aws s3 mb s3://myversioningb1
 
 
+toch myfile.txt
