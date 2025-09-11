@@ -1,0 +1,4 @@
+## Create a bucket without versioning 
+aws s3 mb s3://aws-s3-v1
+
+
