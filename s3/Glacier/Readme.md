@@ -11,11 +11,11 @@ echo "Hello creating pre-signeed url, it is used by other user to read-write obe
 
 aws s3 cp s3://gla-bkt1/hello.txt hello.txt
 
-## After deleting obeject from directory of 
+## After deleting obeject from directory of gitpod 
 aws s3 cp s3://gla-bkt1/hello.txt hello.txt
 
 ## Restoring the  object
-aws s3api restore-object
---bucket gla-bkt1
---key hello.txt
+aws s3api restore-object \
+--bucket gla-bkt1 \
+--key hello.txt \
 --restore-request Days=1
