@@ -1,3 +1,3 @@
 ## Create a bucket
 
-aws s3 mb s3://mybatch
+aws s3 mb s3://molu-batch-bkt
