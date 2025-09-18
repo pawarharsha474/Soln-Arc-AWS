@@ -17,3 +17,5 @@ aws s3api put-object-tagging \
 ## Cleanup
 
 aws s3 rm  s3://my-obejct-tag-bkt/hello.txt
+
+aws s3 rb  s3://my-obejct-tag-bkt
