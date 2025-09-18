@@ -13,3 +13,7 @@ aws s3api put-object-tagging \
   --key hello.txt \
   --tagging '{"TagSet": [{ "Key": "hello", "Value": "Hii there this is obejct-tage practicle" }]}'
 
+
+## Cleanup
+
+aws s3 rm  s3://my-obejct-tag-bkt/hello.txt
