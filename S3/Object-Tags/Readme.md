@@ -7,7 +7,7 @@ echo "Hii there this is obejct-tage practicle" >hello.txt
 ## Upload a file
 aws s3 cp hello.txt s3://my-obejct-tag-bkt/hello.txt
 
-
+## Apply Object  Tagging
 aws s3api put-object-tagging \
   --bucket my-obejct-tag-bkt \
   --key hello.txt \
